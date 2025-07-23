@@ -35,7 +35,7 @@ export default function ContactArea() {
                     <i className="ri-map-pin-line"></i>
                   </span>
                   <h2>our office:</h2>
-                  <p>Jurain,Dhaka Bangladesh</p>
+                  <p>Based in Karachi</p>
                 </div>
 
 
@@ -44,7 +44,7 @@ export default function ContactArea() {
                     <i className="ri-headphone-line"></i>
                   </span>
                   <h2>contact number:</h2>
-                  <p>+1234321321</p>
+                  <p>+923132685490</p>
                 </div>
 
 
@@ -53,7 +53,7 @@ export default function ContactArea() {
                     <i className="ri-mail-line"></i>
                   </span>
                   <h2>Email us:</h2>
-                  <p>websitename@mail.com</p>
+                  <p>itsasif009@gmail.com</p>
                 </div>
 
 
@@ -61,10 +61,10 @@ export default function ContactArea() {
                   <h2>Socials</h2>
                   <div className="about-social">
                     <ul>
-                      <li><a target='_blank' href="https://facebook.com"><i className="ri-facebook-circle-fill"></i></a></li>
-                      <li><a target='_blank' href="https://twitter.com"><i className="ri-twitter-x-line"></i></a></li>
-                      <li><a target='_blank' href="https://linkedin.com"><i className="ri-linkedin-fill"></i></a></li>
-                      <li><a target='_blank' href="https://github.com/jamilrayhan10"><i className="ri-github-line"></i></a></li>
+                      <li><a target='_blank' href="https://facebook.com/adorable490"><i className="ri-facebook-circle-fill"></i></a></li>
+                      <li><a target='_blank' href="#"><i className="ri-twitter-x-line"></i></a></li>
+                      <li><a target='_blank' href="https://www.linkedin.com/in/asif490/"><i className="ri-linkedin-fill"></i></a></li>
+                      <li><a target='_blank' href="https://github.com/iTsAsifkhan"><i className="ri-github-line"></i></a></li>
                     </ul>
                   </div>
                 </div>

@@ -15,7 +15,7 @@ export default function FooterOne() {
           </div>
           <div className="row">
             <div className="col-lg-6 col-sm-6">
-              <p className="copy-left-text">Template by <a target="_blank" href="https://themeforest.net/user/theme_ocean/portfolio">Creative Personal®</a></p>
+              <p className="copy-left-text">Template by <a target="_blank" href="#">AK Development®</a></p>
             </div>
             <div className="col-lg-6 col-sm-6">
               <p className="copy-right-text"> © Copyright {new Date().getFullYear()}</p>
