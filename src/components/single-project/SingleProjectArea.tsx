@@ -1,29 +1,11 @@
- 
 import  { useState } from 'react'
 import ImagePopup from '../../modals/ImagePopup';
 
-import img_1 from "../../../public/assets/images/projects/work1.jpg";
-import img_2 from "../../../public/assets/images/projects/work2.jpg";
-import img_3 from "../../../public/assets/images/projects/work3.jpg";
-import img_4 from "../../../public/assets/images/projects/work4.jpg"; 
-
-const portfolio_images = [
-  {
-    id: 1,
-    image: img_1,
-  },
-  {
-    id: 2,
-    image: img_2,
-  },
-  {
-    id: 3,
-    image: img_3,
-  },
-  {
-    id: 4,
-    image: img_4,
-  },
+const images = [
+  "/assets/images/projects/work1.jpg",
+  "/assets/images/projects/work2.jpg",
+  "/assets/images/projects/work3.jpg",
+  "/assets/images/projects/work4.jpg",
 ]
 
 export default function SingleProjectArea() {
@@ -38,7 +20,7 @@ export default function SingleProjectArea() {
     setIsOpen(true);
   };
   //  images
-  const image = portfolio_images.slice(0, 5).map((item) => item.image);
+  const image = images.slice(0, 5);
 
 
   return (
@@ -85,12 +67,12 @@ export default function SingleProjectArea() {
           </div>
 
           <div className="row pt-60">
-            {portfolio_images.map((item, i) => (
+            {images.map((item, i) => (
               <div className="col-lg-6">
                 <a style={{ cursor: "pointer" }}
                   onClick={() => handleImagePopup(i)} className="work-popup">
                   <div className="single-image wow fadeInUp delay-0-2s">
-                    <img src={item.image} style={{ height: "auto" }} alt="gallery" />
+                    <img src={item} style={{ height: "auto" }} alt="gallery" />
                   </div>
                 </a>
               </div>
