@@ -1,13 +1,6 @@
- 
 import { useState } from "react";
 import ImagePopup from "../../modals/ImagePopup";
 import "react-18-image-lightbox/style.css";
-
-import portfolio_img_1 from "../../../public/assets/images/projects/work1.jpeg";
-import portfolio_img_2 from "../../../public/assets/images/projects/work2.jpeg";
-import portfolio_img_3 from "../../../public/assets/images/projects/work3.jpeg";
-import portfolio_img_4 from "../../../public/assets/images/projects/work4.jpeg";
-import portfolio_img_5 from "../../../public/assets/images/projects/work5.jpeg"; 
 
 interface DataType {
   id: number;
@@ -21,35 +14,35 @@ const portfolio_data:DataType[] = [
   {
     id: 1,
     col: "6",
-    image: portfolio_img_1,
+    image: "/assets/images/projects/work1.jpeg",
     title: "Glasses of Cocktail",
     category: "Branding",
   },
   {
     id: 2,
     col: "6",
-    image: portfolio_img_2,
+    image: "/assets/images/projects/work2.jpeg",
     title: "A Branch with Flowers",
     category: "Mockup",
   },
   {
     id: 3,
     col: "4",
-    image: portfolio_img_3,
+    image: "/assets/images/projects/work3.jpeg",
     title: "Orange Rose Flower",
     category: "Video",
   },
   {
     id: 4,
     col: "4",
-    image: portfolio_img_4,
+    image: "/assets/images/projects/work4.jpeg",
     title: "Green Plant on a Desk",
     category: "Branding",
   },
   {
     id: 5,
     col: "4",
-    image: portfolio_img_5,
+    image: "/assets/images/projects/work5.jpeg",
     title: "Orange Rose Flower",
     category: "Mockup",
   },
