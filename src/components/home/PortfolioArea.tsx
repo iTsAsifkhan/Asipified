@@ -3,11 +3,11 @@ import { useState } from "react";
 import ImagePopup from "../../modals/ImagePopup";
 import "react-18-image-lightbox/style.css";
 
-import portfolio_img_1 from "../../../public/assets/images/projects/work(1).jpeg";
-import portfolio_img_2 from "../../../public/assets/images/projects/work(2).jpeg";
-import portfolio_img_3 from "../../../public/assets/images/projects/work(3).jpeg";
-import portfolio_img_4 from "../../../public/assets/images/projects/work(4).jpeg";
-import portfolio_img_5 from "../../../public/assets/images/projects/work(5).jpeg"; 
+import portfolio_img_1 from "../../../public/assets/images/projects/work1.jpeg";
+import portfolio_img_2 from "../../../public/assets/images/projects/work2.jpeg";
+import portfolio_img_3 from "../../../public/assets/images/projects/work3.jpeg";
+import portfolio_img_4 from "../../../public/assets/images/projects/work4.jpeg";
+import portfolio_img_5 from "../../../public/assets/images/projects/work5.jpeg"; 
 
 interface DataType {
   id: number;
