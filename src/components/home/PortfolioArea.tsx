@@ -15,8 +15,8 @@ const portfolio_data:DataType[] = [
     id: 1,
     col: "6",
     image: "/assets/images/projects/work1.jpeg",
-    title: "Glasses of Cocktail",
-    category: "Branding",
+    title: "Footballer Website",
+    category: "Web Design",
   },
   {
     id: 2,
